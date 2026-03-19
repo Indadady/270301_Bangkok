@@ -86,7 +86,7 @@
         .animated-route-line {
             stroke-dasharray: 4000;
             stroke-dashoffset: 4000;
-            animation: drawLine 4.5s ease-in-out forwards;
+            animation: drawLine 4.5s ease-in forwards;
         }
         @keyframes drawLine { 
             to { stroke-dashoffset: 0; } 
@@ -155,7 +155,7 @@
             <div class="animate-fade-in-up text-white relative z-10">
                 <span class="bg-sky-600/90 px-6 py-2 rounded-full text-lg md:text-xl font-bold mb-6 inline-block border border-white/20 shadow-lg"><i class="fa-solid fa-crown mr-2"></i>VIP 특별 초청 행사</span>
                 <h1 class="text-4xl md:text-6xl font-bold mb-4 drop-shadow-lg font-[Nanum Myeongjo]">방콕 · 파타야<br><span class="text-amber-400 font-bold">오감을 깨우는 힐링 투어</span></h1>
-                <p class="text-lg md:text-xl text-slate-100 font-light tracking-wide">2027.02.22(월) ~ 02.26(금) | 3박 5일</p>
+                <p class="text-lg md:text-xl text-slate-100 font-light tracking-wide">2027.03.01(월) ~ 03.05(금) | 3박 5일</p>
             </div>
         </section>
 
@@ -187,27 +187,6 @@
             </div>
         </section>
 
-        <!-- 🎬 Video Section -->
-        <section id="video" class="py-12 bg-slate-900 text-white relative z-10 print-hide border-b border-slate-800">
-            <div class="container mx-auto px-4 max-w-5xl">
-                <div class="text-center mb-8">
-                    <span class="inline-block bg-slate-800 text-slate-300 border border-slate-700 text-xs px-4 py-1.5 rounded-full font-bold shadow-sm mb-3">랜선 여행</span>
-                    <h2 class="text-2xl md:text-3xl font-bold">어메이징 타이랜드 미리보기 🎬</h2>
-                    <p class="text-slate-400 mt-2 text-sm font-medium">출발 전, 활기찬 방콕과 아름다운 파타야의 풍경을 영상으로 만나보세요.</p>
-                </div>
-                <!-- 16:9 Aspect Ratio Container for YouTube -->
-                <div class="relative w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-800 bg-black" style="padding-top: 56.25%;">
-                    <iframe class="absolute top-0 left-0 w-full h-full" 
-                            src="https://www.youtube.com/embed/jAOM-vOWe3E?rel=0" 
-                            title="YouTube video player" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-        </section>
-
         <!-- Departure & Guide Info -->
         <section id="departure" class="py-12 bg-slate-50 border-y border-slate-200 relative z-10 print-hide">
             <div class="container mx-auto px-4">
@@ -215,12 +194,12 @@
                     <span class="text-sky-600 font-black tracking-widest text-xs uppercase">CONFIRMED INFO</span>
                     <h2 class="text-2xl md:text-3xl font-bold text-slate-800 mt-2">공항 미팅 및 아시아나항공 스케줄</h2>
                 </div>
-                <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+                <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
                     <!-- Incheon Meeting Info -->
                     <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex items-start gap-4">
                         <div class="bg-indigo-600 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-users"></i></div>
                         <div class="w-full">
-                            <h3 class="font-bold text-slate-800 text-lg mb-3 flex justify-between items-center">인천공항 단체 미팅 <span class="text-xs bg-indigo-100 text-indigo-700 px-2 py-1 rounded">2/22 (월)</span></h3>
+                            <h3 class="font-bold text-slate-800 text-lg mb-3 flex justify-between items-center">인천공항 단체 미팅 <span class="text-xs bg-indigo-100 text-indigo-700 px-2 py-1 rounded">3/1 (월)</span></h3>
                             <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 space-y-3 text-sm text-slate-700">
                                 <p class="flex items-center gap-3"><i class="fa-regular fa-clock text-indigo-500 w-4"></i> <strong>미팅 시간:</strong> 15:00 예정</p>
                                 <p class="flex items-start gap-3"><i class="fa-solid fa-location-dot text-indigo-500 w-4 mt-0.5"></i> <span><strong>장소:</strong> 제1여객터미널 3층 출국장 <br><span class="text-indigo-600 font-bold bg-indigo-100 px-1.5 py-0.5 rounded mt-1 inline-block">M 카운터 앞 집결</span></span></p>
@@ -237,7 +216,7 @@
                                 <div class="bg-slate-50 p-3 rounded-lg border border-slate-100 text-sm flex justify-between items-center">
                                     <div class="flex flex-col">
                                         <span class="font-bold text-sky-700">출국편 OZ741</span>
-                                        <span class="text-xs text-slate-500 font-medium">2/22 (월)</span>
+                                        <span class="text-xs text-slate-500 font-medium">3/1 (월)</span>
                                     </div>
                                     <div class="text-right font-bold text-slate-800">
                                         ICN 18:05 <i class="fa-solid fa-arrow-right text-sky-300 mx-1"></i> BKK 22:00
@@ -246,12 +225,24 @@
                                 <div class="bg-slate-50 p-3 rounded-lg border border-slate-100 text-sm flex justify-between items-center">
                                     <div class="flex flex-col">
                                         <span class="font-bold text-red-700">귀국편 OZ742</span>
-                                        <span class="text-xs text-slate-500 font-medium">2/25 (목) 심야 탑승</span>
+                                        <span class="text-xs text-slate-500 font-medium">3/4 (목) 심야 탑승</span>
                                     </div>
                                     <div class="text-right font-bold text-slate-800">
                                         BKK 23:55 <i class="fa-solid fa-arrow-right text-red-300 mx-1"></i> ICN 06:55 <span class="text-xs text-slate-500">(+1일)</span>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 담당자 비상연락망 -->
+                    <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm flex items-start gap-4">
+                        <div class="bg-amber-500 text-white w-12 h-12 rounded-full flex items-center justify-center text-xl shrink-0"><i class="fa-solid fa-headset"></i></div>
+                        <div class="w-full">
+                            <h3 class="font-bold text-slate-800 text-lg mb-3 flex justify-between items-center">담당자 안내</h3>
+                            <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 space-y-3 text-sm text-slate-700">
+                                <p class="flex items-center gap-3"><i class="fa-solid fa-user-tie text-amber-500 w-4"></i> <strong>투어메이커 기획/수배</strong></p>
+                                <p class="flex items-start gap-3"><i class="fa-solid fa-phone text-amber-500 w-4 mt-0.5"></i> <span><strong class="text-base text-slate-800">정두영 이사</strong><br><a href="tel:010-3841-1361" class="text-amber-600 font-bold mt-1 inline-block text-lg hover:underline">010-3841-1361</a></span></p>
                             </div>
                         </div>
                     </div>
@@ -371,10 +362,10 @@
                 </div>
 
                 <div id="schedule-tabs" class="flex overflow-x-auto no-scrollbar gap-2 mb-8 justify-start md:justify-center pb-2">
-                    <button class="tab-btn active shrink-0 px-6 py-3 rounded-xl border border-sky-600 bg-sky-600 text-white font-bold text-sm shadow-md" onclick="openTab(event, 'day1')">1일차 (2/22)</button>
-                    <button class="tab-btn shrink-0 px-6 py-3 rounded-xl border border-slate-200 bg-white text-slate-500 font-bold text-sm hover:bg-slate-50 transition" onclick="openTab(event, 'day2')">2일차 (2/23)</button>
-                    <button class="tab-btn shrink-0 px-6 py-3 rounded-xl border border-slate-200 bg-white text-slate-500 font-bold text-sm hover:bg-slate-50 transition" onclick="openTab(event, 'day3')">3일차 (2/24)</button>
-                    <button class="tab-btn shrink-0 px-6 py-3 rounded-xl border border-slate-200 bg-white text-slate-500 font-bold text-sm hover:bg-slate-50 transition" onclick="openTab(event, 'day4')">4/5일차 (2/25~)</button>
+                    <button class="tab-btn active shrink-0 px-6 py-3 rounded-xl border border-sky-600 bg-sky-600 text-white font-bold text-sm shadow-md" onclick="openTab(event, 'day1')">1일차 (3/1)</button>
+                    <button class="tab-btn shrink-0 px-6 py-3 rounded-xl border border-slate-200 bg-white text-slate-500 font-bold text-sm hover:bg-slate-50 transition" onclick="openTab(event, 'day2')">2일차 (3/2)</button>
+                    <button class="tab-btn shrink-0 px-6 py-3 rounded-xl border border-slate-200 bg-white text-slate-500 font-bold text-sm hover:bg-slate-50 transition" onclick="openTab(event, 'day3')">3일차 (3/3)</button>
+                    <button class="tab-btn shrink-0 px-6 py-3 rounded-xl border border-slate-200 bg-white text-slate-500 font-bold text-sm hover:bg-slate-50 transition" onclick="openTab(event, 'day4')">4/5일차 (3/4~)</button>
                 </div>
 
                 <div class="bg-white rounded-3xl shadow-sm border border-slate-200 overflow-hidden">
@@ -534,13 +525,13 @@
             <div class="print-info">
                 <div>
                     <p style="margin-bottom: 6px;"><strong>■ 행 사 명 :</strong> 투어메이커 방콕·파타야 3박 5일 기획행사</p>
-                    <p style="margin-bottom: 6px;"><strong>■ 일 &nbsp;&nbsp;&nbsp; 정 :</strong> 2027년 02월 22일(월) ~ 02월 26일(금)</p>
+                    <p style="margin-bottom: 6px;"><strong>■ 일 &nbsp;&nbsp;&nbsp; 정 :</strong> 2027년 03월 01일(월) ~ 03월 05일(금)</p>
                     <p><strong>■ 인 &nbsp;&nbsp;&nbsp; 원 :</strong> 성인 36명 (17트윈 + 1싱글)</p>
                 </div>
                 <div style="text-align: right; background-color: #f8fafc; padding: 10px; border: 1px solid #cbd5e1; border-radius: 5px;">
-                    <p style="margin-bottom: 4px; font-weight: bold; color: #0284c7;">[행사조건 확인]</p>
+                    <p style="margin-bottom: 4px; font-weight: bold; color: #0284c7;">[투어메이커 담당자]</p>
+                    <p style="margin-bottom: 4px; font-weight: bold;">정두영 이사 010-3841-1361</p>
                     <p style="margin-bottom: 4px;">항공 : 아시아나항공 (OZ) 직항</p>
-                    <p style="margin-bottom: 4px;">차량 : 전용 45인승 버스</p>
                     <p>숙박 : 전 일정 5성급 특급호텔</p>
                 </div>
             </div>
@@ -556,7 +547,7 @@
                 <tbody>
                     <!-- Day 1 -->
                     <tr>
-                        <td class="day-col">제 1 일<br><span style="font-size:9pt; font-weight:normal; color:#64748b;">2/22 (월)</span></td>
+                        <td class="day-col">제 1 일<br><span style="font-size:9pt; font-weight:normal; color:#64748b;">3/1 (월)</span></td>
                         <td>
                             <p style="color: #0284c7; font-weight: bold; margin-bottom: 12px; font-size: 10.5pt; border-bottom: 1px solid #e2e8f0; padding-bottom: 5px;">
                                 <span class="print-time">15:00</span> 인천공항 제1터미널 3층 M카운터 앞 집결<br>
@@ -579,7 +570,7 @@
                     </tr>
                     <!-- Day 2 -->
                     <tr>
-                        <td class="day-col">제 2 일<br><span style="font-size:9pt; font-weight:normal; color:#64748b;">2/23 (화)</span></td>
+                        <td class="day-col">제 2 일<br><span style="font-size:9pt; font-weight:normal; color:#64748b;">3/2 (화)</span></td>
                         <td>
                             <ul>
                                 <li>호텔 조식 후 방콕 시내 명소 관람</li>
@@ -604,7 +595,7 @@
                     </tr>
                     <!-- Day 3 -->
                     <tr>
-                        <td class="day-col">제 3 일<br><span style="font-size:9pt; font-weight:normal; color:#64748b;">2/24 (수)</span></td>
+                        <td class="day-col">제 3 일<br><span style="font-size:9pt; font-weight:normal; color:#64748b;">3/3 (수)</span></td>
                         <td>
                             <ul>
                                 <li>호텔 조식 후 파타야 해변으로 이동</li>
@@ -630,7 +621,7 @@
                     </tr>
                     <!-- Day 4/5 -->
                     <tr>
-                        <td class="day-col">제 4 일<br>|<br>제 5 일<br><span style="font-size:9pt; font-weight:normal; color:#64748b;">2/25~2/26</span></td>
+                        <td class="day-col">제 4 일<br>|<br>제 5 일<br><span style="font-size:9pt; font-weight:normal; color:#64748b;">3/4~3/5</span></td>
                         <td>
                             <ul>
                                 <li>호텔 조식 후 체크아웃 및 가이드 미팅</li>
@@ -737,8 +728,8 @@
                             <div class="flex items-center gap-4 mb-4">
                                 <div class="w-12 h-12 bg-sky-100 rounded-full flex items-center justify-center text-2xl">🌡️</div>
                                 <div>
-                                    <h3 class="font-bold text-lg text-slate-800">쾌적하고 따뜻한 태국의 겨울</h3>
-                                    <p class="text-sm font-bold text-sky-600 mt-0.5">2월 평균 기온: 25°C ~ 34°C 내외</p>
+                                    <h3 class="font-bold text-lg text-slate-800">본격적인 더위가 시작되는 태국의 봄</h3>
+                                    <p class="text-sm font-bold text-sky-600 mt-0.5">3월 평균 기온: 26°C ~ 35°C 내외</p>
                                 </div>
                             </div>
                             <ul class="space-y-3 text-sm text-slate-600 mb-6">
@@ -812,6 +803,27 @@
             </div>
         </section>
 
+        <!-- 🎬 Video Section -->
+        <section id="video" class="py-12 bg-slate-900 text-white relative z-10 print-hide border-b border-slate-800">
+            <div class="container mx-auto px-4 max-w-5xl">
+                <div class="text-center mb-8">
+                    <span class="inline-block bg-slate-800 text-slate-300 border border-slate-700 text-xs px-4 py-1.5 rounded-full font-bold shadow-sm mb-3">랜선 여행</span>
+                    <h2 class="text-2xl md:text-3xl font-bold">어메이징 타이랜드 미리보기 🎬</h2>
+                    <p class="text-slate-400 mt-2 text-sm font-medium">블랙핑크 리사가 소개하는 아름다운 태국의 풍경을 영상으로 먼저 만나보세요.</p>
+                </div>
+                <!-- 16:9 Aspect Ratio Container for YouTube -->
+                <div class="relative w-full max-w-4xl mx-auto rounded-2xl overflow-hidden shadow-2xl border-4 border-slate-800 bg-black" style="padding-top: 56.25%;">
+                    <iframe class="absolute top-0 left-0 w-full h-full" 
+                            src="https://www.youtube.com/embed/wDMv1KujSGc?rel=0" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
         <!-- Bottom Nav (Mobile) -->
         <div class="md:hidden fixed bottom-0 w-full bg-white border-t border-slate-200 flex justify-around py-3 z-50 text-[10px] text-slate-500 font-medium shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)] print-hide">
             <a href="#home" class="flex flex-col items-center gap-1"><i class="fa-solid fa-house text-lg"></i>홈</a>
@@ -844,7 +856,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             // D-Day
-            const depart = new Date('2027-02-22');
+            const depart = new Date('2027-03-01');
             const diff = Math.ceil((depart - new Date()) / (1000*60*60*24));
             const badge = document.getElementById('d-day-badge');
             badge.textContent = diff > 0 ? `D-${diff}` : (diff === 0 ? 'D-DAY' : `D+${Math.abs(diff)}`);
@@ -1045,6 +1057,7 @@
             // 2일차
             { id: 'hotel1_out', day: 2, name: '호텔 출발', lat: 13.7651, lng: 100.6450, emoji: '🏨', color: '#10b981', dayClass: 'marker-day2', hidden: true },
             { id: 'grandpalace', day: 2, name: '왕궁 & 에메랄드 사원', lat: 13.7500, lng: 100.4913, emoji: '🛕', color: '#10b981', dayClass: 'marker-day2' },
+            { id: 'waypoint_day2', day: 2, name: '육로 이동', lat: 13.4000, lng: 100.9800, emoji: '🛣️', color: '#10b981', dayClass: 'marker-day2', hidden: true },
             { id: 'alcazar', day: 2, name: '파타야 (알카자쇼 등)', lat: 12.9431, lng: 100.8887, emoji: '🎭', color: '#10b981', dayClass: 'marker-day2' },
             { id: 'hotel2_in', day: 2, name: '윈덤 파타야', lat: 12.8900, lng: 100.8750, emoji: '🏨', color: '#10b981', dayClass: 'marker-day2' },
             
@@ -1057,6 +1070,7 @@
             // 4/5일차
             { id: 'hotel3_out', day: 4, name: '호텔 체크아웃', lat: 12.8900, lng: 100.8750, emoji: '🏨', color: '#8b5cf6', dayClass: 'marker-day4', hidden: true },
             { id: 'khaochi', day: 4, name: '황금절벽사원', lat: 12.7648, lng: 100.9559, emoji: '⛰️', color: '#8b5cf6', dayClass: 'marker-day4' },
+            { id: 'waypoint_day4', day: 4, name: '육로 이동', lat: 13.4000, lng: 100.9800, emoji: '🛣️', color: '#8b5cf6', dayClass: 'marker-day4', hidden: true },
             { id: 'asiatique', day: 4, name: '방콕 (아시아티크)', lat: 13.7042, lng: 100.5033, emoji: '🎡', color: '#8b5cf6', dayClass: 'marker-day4' },
             { id: 'cruise', day: 4, name: '선상 디너크루즈', lat: 13.7300, lng: 100.5100, emoji: '🛳️', color: '#8b5cf6', dayClass: 'marker-day4' },
             { id: 'bkk2', day: 4, name: '공항 출국', lat: 13.6900, lng: 100.7501, emoji: '✈️', color: '#8b5cf6', dayClass: 'marker-day4' }
