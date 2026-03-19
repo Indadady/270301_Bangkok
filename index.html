@@ -114,7 +114,7 @@
             table.print-table p { margin: 0 0 6px 0; line-height: 1.4; }
             .print-hotel { font-size: 9pt; color: #475569; margin-top: 10px; border-top: 1px dashed #cbd5e1; padding-top: 8px; font-weight: bold;}
             .print-time { font-weight: bold; color: #0284c7; display: inline-block; width: 45px; }
-            .print-footer { text-align: center; margin-top: 20px; font-size: 9pt; color: #64748b; border-top: 1px solid #e2e8f0; padding-top: 10px; }
+            .print-footer { display: flex; justify-content: space-between; align-items: flex-end; margin-top: 20px; font-size: 9pt; color: #64748b; border-top: 1px solid #e2e8f0; padding-top: 10px; text-align: left; }
         }
     </style>
 </head>
@@ -519,14 +519,14 @@
         <!-- 🖨️ Print-Only Section (결재용 문서 포맷) -->
         <section class="print-only hidden">
             <div class="print-header">
-                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker Logo" style="height: 35px; margin-bottom: 15px; display: block; margin-left: auto; margin-right: auto;">
+                <!-- 로고를 제거하고 Footer로 이동했습니다 -->
                 <h1>[VIP 초청] 방콕/파타야 힐링투어 확정 일정표</h1>
             </div>
             <div class="print-info">
                 <div>
                     <p style="margin-bottom: 6px;"><strong>■ 행 사 명 :</strong> 투어메이커 방콕·파타야 3박 5일 기획행사</p>
                     <p style="margin-bottom: 6px;"><strong>■ 일 &nbsp;&nbsp;&nbsp; 정 :</strong> 2027년 03월 01일(월) ~ 03월 05일(금)</p>
-                    <p><strong>■ 인 &nbsp;&nbsp;&nbsp; 원 :</strong> 성인 36명 (17트윈 + 1싱글)</p>
+                    <p><strong>■ 인 &nbsp;&nbsp;&nbsp; 원 :</strong> 성인 34명</p> <!-- 인원수 수정됨 -->
                 </div>
                 <div style="text-align: right; background-color: #f8fafc; padding: 10px; border: 1px solid #cbd5e1; border-radius: 5px;">
                     <p style="margin-bottom: 4px; font-weight: bold; color: #0284c7;">[투어메이커 담당자]</p>
@@ -649,9 +649,15 @@
                 </tbody>
             </table>
 
+            <!-- 로고 우측 하단 배치 적용 영역 -->
             <div class="print-footer">
-                <p>※ 상기 일정은 항공기 연발착 및 현지 사정(기상 상황, 교통 통제 등)에 의해 변경될 수 있습니다.</p>
-                <p>※ 4월부터 유류세 인상에 따른 요금 변동 사항을 확인해 주시기 바랍니다.</p>
+                <div>
+                    <p style="margin-bottom: 4px;">※ 상기 일정은 항공기 연발착 및 현지 사정(기상 상황, 교통 통제 등)에 의해 변경될 수 있습니다.</p>
+                    <p>※ 4월부터 유류세 인상에 따른 요금 변동 사항을 확인해 주시기 바랍니다.</p>
+                </div>
+                <div>
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker Logo" style="height: 30px;">
+                </div>
             </div>
         </section>
 
