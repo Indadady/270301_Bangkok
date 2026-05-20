@@ -190,7 +190,8 @@
         <section id="departure" class="py-12 bg-slate-50 border-y border-slate-200 relative z-10 print-hide">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-10">
-                    <span class="text-sky-600 font-black tracking-widest text-xs uppercase">CONFIRMED INFO</span>
+                    <!-- 수정: 확정 정보(CONFIRMED)에서 제안 정보(PROPOSED)로 변경 -->
+                    <span class="text-sky-600 font-black tracking-widest text-xs uppercase">PROPOSED INFO</span>
                     <h2 class="text-2xl md:text-3xl font-bold text-slate-800 mt-2">공항 미팅 및 아시아나항공 스케줄</h2>
                 </div>
                 <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
@@ -518,14 +519,14 @@
         <!-- 🖨️ Print-Only Section (결재용 문서 포맷) -->
         <section class="print-only hidden">
             <div class="print-header">
-                <!-- 로고를 제거하고 Footer로 이동했습니다 -->
-                <h1>[VIP 초청] 방콕/파타야 힐링투어 확정 일정표</h1>
+                <!-- 🚨 수정사항: 확정 일정표 -> 제안 일정표 -->
+                <h1>[VIP 초청] 방콕/파타야 힐링투어 제안 일정표</h1>
             </div>
             <div class="print-info">
                 <div>
                     <p style="margin-bottom: 6px;"><strong>■ 행 사 명 :</strong> 투어메이커 방콕·파타야 3박 5일 기획행사</p>
                     <p style="margin-bottom: 6px;"><strong>■ 일 &nbsp;&nbsp;&nbsp; 정 :</strong> 2027년 03월 01일(월) ~ 03월 05일(금)</p>
-                    <p><strong>■ 인 &nbsp;&nbsp;&nbsp; 원 :</strong> 성인 34명</p> <!-- 인원수 수정됨 -->
+                    <p><strong>■ 인 &nbsp;&nbsp;&nbsp; 원 :</strong> 성인 34명</p>
                 </div>
                 <div style="text-align: right; background-color: #f8fafc; padding: 10px; border: 1px solid #cbd5e1; border-radius: 5px;">
                     <p style="margin-bottom: 4px; font-weight: bold; color: #0284c7;">[투어메이커 담당자]</p>
@@ -660,7 +661,7 @@
             </div>
         </section>
 
-        <!-- 🚨 새로 추가된 섹션: 숙박 및 식사 (일반 성인 단체 맞춤 - 이미지 추가 버전) -->
+        <!-- 🚨 숙박 및 식사 (일반 성인 단체 맞춤) -->
         <section id="stay-dining" class="py-16 bg-slate-100 border-t border-slate-200 print-hide relative">
             <div class="container mx-auto px-4 max-w-5xl">
                 <div class="text-center mb-10">
